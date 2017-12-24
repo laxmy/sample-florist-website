@@ -1,0 +1,129 @@
+
+body{
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+.secondary-head{
+	background: #f3f1e1;
+}
+.secondary-head .nav-item{
+	color: #1a1f31;
+}
+.secondary-head .nav-link:active{
+	text-decoration: underline;
+}
+.secondary-head button,input{
+	background: #f3f1e1;
+	color: #1a1f31;
+}
+.secondary-head input{
+	background: #f3f1e1;
+	color: #1a1f31;
+	padding: 0 2px;
+}
+
+.navbar-brand{
+	color:#5675A0;
+}
+.primary-head{
+	background: #1a1f31;
+	color: white;
+	height: 25px;
+	font-size: 12px;
+}
+
+/*Jumbotron related styles*/
+
+.jumbotron{
+	background: white;
+	background-image: url("assets/img/flower_bouquet3.jpg");
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+
+.hero-msg{
+	background: white;
+	width: 50%;
+	opacity: 0.8;
+	text-align: center;
+	border-radius: 2px;
+}
+.hero-msg h1{
+	font-size: 3rem;
+}
+.footnote{
+	font-style: italic;
+}
+.btn-primary{
+	color:#1a1f31;
+	background-color: #fff;
+	border-color: #1a1f31;
+}
+.btn-primary:hover{
+ color:#fff;
+ background-color: #1a1f31;
+ border-color: #1a1f31;
+}
+
+.hero-msg p{
+	text-align: center;
+}
+
+/*card related styles*/
+
+.sub-heading{
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 2rem;
+}
+
+.card{
+	border: none;
+	border-radius: 2px;
+	height: 300px;
+	width: 180px;
+	margin-bottom: 20px;
+}
+
+.card img{
+	height: 220px;
+	width: 180px;
+	margin: 0 auto;
+}
+
+.card-footer{
+	background: #f3f1e1;
+	text-align:center;
+	margin: 0 auto;
+	width:180px;
+}
+
+.card-footer h4,h6,p{
+	margin-bottom: 0.2rem;
+    font-size: 0.8rem;
+}
+.card-title{
+	text-transform: uppercase;
+}
+
+.diy-section{
+	background-image: url("assets/img/floralbouquet2.jpg");
+    height: 300px;
+}
+
+.step{
+	background: rgba(26,31,49,0.7);
+	height: 15rem;
+	width: 15rem;
+	border-radius: 50%;
+    color:#fff;
+    text-align:center;
+    text-overflow: wrap;
+    line-height: 15rem;
+    margin:2rem;
+}
+
+.step img{
+	width:inherit;
+	border-radius: 50%;
+}
